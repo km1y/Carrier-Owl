@@ -1,11 +1,14 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.AI' OR 'cat:cs.GT' OR 'cat:cs.CV' OR 'cat:cs.LG'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        medical: 5
+        image: 1
+        GAN: 4
+        Game: 1
+        Game Theory: 5
+
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 5
